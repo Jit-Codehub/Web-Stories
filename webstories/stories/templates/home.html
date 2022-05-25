@@ -1,0 +1,12 @@
+<htmL>
+    <head>
+        <title>Webstories</title>
+    </head>
+    <body>
+        <ul>
+        {% for t in titles %}
+        <li><a href="web-stories/{{t.url}}">{{t.title}}</a></li>
+        {% endfor%}
+    </ul>
+    </body>
+</htmL>
